@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-
 int main()
 {
     pid_t pid;
@@ -23,13 +22,9 @@ int main()
 }
 
 OUTPUT :
-
 Parent Process
 Parent PID: 99568
 Parent's Parent PID: 99561
 Child Process
 Child PID: 99569
 Parent PID: 99568
-
-
-=== Code Execution Successful ===
